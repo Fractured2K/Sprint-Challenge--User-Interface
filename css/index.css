@@ -148,7 +148,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+button {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -156,6 +157,21 @@ h5 {
 
 p {
     line-height: 1.4;
+}
+
+img {
+    cursor: pointer;
+}
+
+button {
+    transition: 0.3s;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: black !important;
 }
 
 .container {
@@ -309,6 +325,40 @@ header nav a {
     height: 40px;
     width: 130px;
     margin: 20px 0;
+}
+
+/* Middle content product */
+.middle-content-product {
+    margin: 20px 15px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content-product h2 {
+    margin-top: 10px;
+}
+
+.middle-content-product img {
+    max-width: 770px;
+}
+
+.middle-content-product button {
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 130px;
+    margin: 20px 0;
+}
+
+/* Animations for middle-content*/
+.middle-content-product,
+.middle-content-about div {
+    transition: 0.3s;
+}
+
+.middle-content-product:hover,
+.middle-content-about div:hover {
+    transform: scale(1.05);
 }
 
 .bottom-content {
