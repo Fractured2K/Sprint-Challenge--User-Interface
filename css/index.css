@@ -206,6 +206,13 @@ header nav a {
     margin-bottom: 20px;
 }
 
+/* Hero contact heading */
+.hero h1 {
+    font-size: 28px;
+    margin: 40px 0;
+    text-align: center;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -378,6 +385,36 @@ header nav a {
 /* Bottom content about */
 .bottom-content-about {
     margin: 0 2.5% 40px;
+}
+
+/* Contact Form */
+.contact-form {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    margin: 10px 0;
+    width: 600px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+
+.contact-form button {
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 130px;
+    margin-bottom: 90px;
 }
 
 footer {
