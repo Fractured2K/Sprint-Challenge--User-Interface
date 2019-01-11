@@ -1,9 +1,9 @@
 Q. If you were to describe semantic HTML to the next cohort of students, what would you say?
-A. Semantic HTML means one thing and one thing only MEANINGFUL. It's meaningful because each element used is to describe its purpose
-weather it'd be a navbar, header, heading, footer, paragraph, or even a div for styling purposes they all are there to provide meaning and context for you, the next developer, and SEO.
+A. Semantic HTML means one thing and one thing only, MEANINGFUL. It's meaningful because each element used is to describe its purpose
+weather it'd be a nav, header, heading, footer, paragraph, or even a div for styling purposes. They all are there to provide meaning and context for you, the next developer, and SEO.
 
 Q. Name two big differences between display: block; and display: inline;.
-A. Block doesn't respect other elements and takes up the entirety of space it needs, inline however takes only what it needs and has no effect upon having width or height properties applied to it.
+A. display: block; doesn't respect other elements and takes up the entirety of space it needs, display: inline; however takes only what it needs and has no effect upon having width or height properties applied to it.
 
 Q. What are the 4 areas of the box model?
 A. content, padding, border and margin.
@@ -13,4 +13,5 @@ Q. While using flexbox, what axis does the following property work on: align-ite
 A. cross-axis
 
 Q. Explain why git is valuable to a team of developers.
-A. Git allows you to work together more efficiently by enabling you to use all of the files same while you collaborate as well as maintaining version control to help prevent bugs and keep track of changes.
+A. Git allows you maintain version control within your application. Meaning if you ever have to revert back due to some misfortunate occurrences or bugs
+in your program git will allow you to.

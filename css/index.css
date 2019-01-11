@@ -191,13 +191,21 @@ header {
     margin-right: 10px;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Nav bar items */
 header nav a {
     text-decoration: none;
     color: black;
-
-    /* Used padding for bigger navigation menu click */
-    padding: 0 35px;
 }
 
 /* Hero image */
@@ -448,7 +456,6 @@ footer nav a {
 
     /* Nav bar items */
     header nav a:last-child {
-        /* Used padding for bigger navigation menu click */
         padding: 0;
     }
 
