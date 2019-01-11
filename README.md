@@ -44,6 +44,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
+Q. If you were to describe semantic HTML to the next cohort of students, what would you say?
+A. Semantic HTML means one thing and one thing only, MEANINGFUL. It's meaningful because each element used is to describe its purpose
+weather it'd be a nav, header, heading, footer, paragraph, or even a div for styling purposes. They all are there to provide meaning and context for you, the next developer, and SEO.
+
+Q. Name two big differences between display: block; and display: inline;.
+A. display: block; doesn't respect other elements and takes up the entirety of space it needs, display: inline; however takes only what it needs and has no effect upon having width or height properties applied to it.
+
+Q. What are the 4 areas of the box model?
+A. content, padding, border and margin.
+
+
+Q. While using flexbox, what axis does the following property work on: align-items: center?
+A. cross-axis
+
+Q. Explain why git is valuable to a team of developers.
+A. Git allows you maintain version control within your application. Meaning if you ever have to revert back due to some misfortunate occurrences or bugs
+in your program git will allow you to.
+
+
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
@@ -54,13 +73,13 @@ Follow these steps to set up and work on your project:
 - [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on this Branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your Project Manager as a Reviewer on the Pull-request
 - [ ] PM then will count the HW as done by  merging the branch back into master.
- 
+
 
 
 ## Minimum Viable Product
@@ -102,7 +121,7 @@ In your solution, it is essential that you follow best practices and produce cle
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
+* [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.
 * [ ] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
