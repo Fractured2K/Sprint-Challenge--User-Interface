@@ -1,62 +1,155 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5,
+button {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -66,9 +159,58 @@ p {
     line-height: 1.4;
 }
 
+img {
+    cursor: pointer;
+}
+
+button {
+    transition: 0.3s;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: black !important;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: baseline;
+    margin: 20px 0;
+}
+
+/* Navigation Lambda Logo */
+.logo {
+    margin-right: 10px;
+}
+
+/* Nav bar items */
+header nav a {
+    text-decoration: none;
+    color: black;
+
+    /* Used padding for bigger navigation menu click */
+    padding: 0 35px;
+}
+
+/* Hero image */
+.hero {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* Hero contact heading */
+.hero h1 {
+    font-size: 28px;
+    margin: 40px 0;
+    text-align: center;
 }
 
 .top-content {
@@ -82,7 +224,19 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+}
+
+.top-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content-about .text-container {
+    padding: 0 1.8%;
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -112,6 +266,108 @@ p {
     justify-content: center;
 }
 
+/* Colored Boxes */
+.middle-content .box.box1 {
+    background: teal;
+}
+
+.middle-content .box.box2 {
+    background: gold;
+}
+
+.middle-content .box.box3 {
+    background: cadetblue;
+}
+
+.middle-content .box.box4 {
+    background: coral;
+}
+
+.middle-content .box.box5 {
+    background: crimson;
+}
+
+.middle-content .box.box6 {
+    background: forestgreen;
+}
+
+.middle-content .box.box7 {
+    background: darkorchid;
+}
+
+.middle-content .box.box8 {
+    background: hotpink;
+}
+
+.middle-content .box.box9 {
+    background: indigo;
+}
+
+.middle-content .box.box10 {
+    background: dodgerblue;
+}
+
+/* Middle content about */
+.middle-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.middle-content-about div {
+    width: 370px;
+    border-bottom: 1px dashed black;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.middle-content-about div h2 {
+    margin-top: 10px;
+}
+
+.middle-content-about div button {
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 130px;
+    margin: 20px 0;
+}
+
+/* Middle content product */
+.middle-content-product {
+    margin: 20px 15px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content-product h2 {
+    margin-top: 10px;
+}
+
+.middle-content-product img {
+    max-width: 770px;
+}
+
+.middle-content-product button {
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 130px;
+    margin: 20px 0;
+}
+
+/* Animations for middle-content*/
+.middle-content-product,
+.middle-content-about div {
+    transition: 0.3s;
+}
+
+.middle-content-product:hover,
+.middle-content-about div:hover {
+    transform: scale(1.05);
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +380,41 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+/* Bottom content about */
+.bottom-content-about {
+    margin: 0 2.5% 40px;
+}
+
+/* Contact Form */
+.contact-form {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    margin: 10px 0;
+    width: 600px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+
+.contact-form button {
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 130px;
+    margin-bottom: 90px;
 }
 
 footer {
@@ -143,4 +434,28 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Media queries */
+@media (max-width: 415px) {
+
+    /* Header */
+    header {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: baseline;
+    }
+
+    /* Nav bar items */
+    header nav a:last-child {
+        /* Used padding for bigger navigation menu click */
+        padding: 0;
+    }
+
+    .middle-content-about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
