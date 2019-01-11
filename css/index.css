@@ -212,7 +212,7 @@ header nav a {
 }
 
 .top-content .text-container-about {
-    padding: 0 1%;
+    padding: 0 1.8%;
     padding-bottom: 20px;
 }
 
@@ -282,6 +282,33 @@ header nav a {
 
 .middle-content .box.box10 {
     background: dodgerblue;
+}
+
+/* Middle content about */
+.middle-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.middle-content-about div {
+    width: 370px;
+    border-bottom: 1px dashed black;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.middle-content-about div h2 {
+    margin-top: 10px;
+}
+
+.middle-content-about div button {
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 130px;
+    margin: 20px 0;
 }
 
 .bottom-content {
